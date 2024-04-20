@@ -7,7 +7,11 @@
 }
 
 
-.walpaper{background-image: url(asset/walpaper.jpg);background-size: cover;}
+.wal{background-image: url(asset/walpaper.jpg);background-size: cover;}
+
+.walpaper{background-color: background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #101010 100%);
+;}
 
 
 
@@ -21,7 +25,7 @@
 
 .foto{justify-content: center;border-radius: 50%;width:250px;display: flex;height:250px ;}
 
-.sub-formato-1{display: flex;backdrop-filter: blur(10px);width: 300px;background-color: rgba(255, 255, 255, 0.145);border-radius: 50%;justify-content: center;height: 300px;align-items: center;margin-top: 20px;}
+.sub-formato-1{display: flex;backdrop-filter: blur(10px);width: 300px;background-color: rgba(255, 255, 255, 0.145);border-radius: 50%;justify-content: center;height: 300px;align-items: center;margin-top: 90px;}
   
 .formato-2{display: flex;justify-content: center;align-items: center;border-radius: 0.3em;margin: 10px;text-align: center;flex-direction: column;margin-top: 70px;}
 
